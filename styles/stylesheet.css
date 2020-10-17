@@ -1,0 +1,54 @@
+h1 {
+  color: rgb(102, 0, 255);
+  border-style: solid;
+  border-width: .25rem;
+  text-align: center;
+}
+p {
+  color: red;
+}
+body.index {
+  background-color: hsl(120, 100%, 90%);
+}
+body.about {
+  background-color: rgb(204, 204, 255);
+}
+h2 {
+  color: #ff5050;
+  font-family: verdana;
+  font-size: 160%;
+}
+p {
+color: red;
+font-family: courier;
+font-size: 120%;
+}
+.blue-text{
+  color: blue;
+}
+.important{
+  font-weight: bold;
+}
+h3 {
+  color:purple;
+  font-weight: bold;
+}
+.important:hover {
+  background-color: #0000FF;
+}
+a[href="https://github.com/awesomealex85/semantic-elements.git"] {
+  background-color: orange;
+  padding: 1rem;
+}
+a[href="https://github.com/awesomealex85/portfolio.git"] {
+  background-color: blue;
+}
+p.important {
+  width: 75%
+}
+img {
+  border-style: dashed;
+  border-color: orange;
+  border-width: 3px;
+  width: 25%;
+}
