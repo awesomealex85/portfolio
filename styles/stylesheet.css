@@ -1,4 +1,10 @@
+
+header{
+  font-family: 'Roboto Slab', serif;
+}
+
 h1 {
+  font-family: 'Goldman', cursive;
   color: rgb(102, 0, 255);
   border-style: solid;
   border-width: .25rem;
@@ -39,9 +45,17 @@ h3 {
 a[href="https://github.com/awesomealex85/semantic-elements.git"] {
   background-color: orange;
   padding: 1rem;
+  width: 100px;
 }
 a[href="https://github.com/awesomealex85/portfolio.git"] {
-  background-color: blue;
+  background-color: #ff33cc;
+  padding: 1rem;
+  width: 100px;
+}
+a[href="https://github.com/awesomealex85/kitties-to-go.git"] {
+  background-color: green;
+  padding: 1rem;
+  width: 100px;
 }
 p.important {
   width: 75%
@@ -51,4 +65,12 @@ img {
   border-color: orange;
   border-width: 3px;
   width: 25%;
+}
+.container {
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+
 }
