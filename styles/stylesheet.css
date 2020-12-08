@@ -83,3 +83,25 @@ img {
   flex-wrap: nowrap;
   justify-content: space-around;
 }
+body.contact {
+  background-color: #bae1ff;
+}
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+input[type=submit] {
+  width: 100px;
+  background-color: #FFFF99;
+}
+input {
+  width: 300px;
+  border-radius: 15px;
+}
+input:hover {
+  background-color: #5eff33;
+
+}
